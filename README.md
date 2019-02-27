@@ -1,4 +1,4 @@
-## **NOTE TO INTERVIEW CANDIDATES: Please do not share the contents in this directory tree. Sharing the conents will make it difficult for us to evaluate candidates.**
+## **NOTE TO INTERVIEW CANDIDATES: Please do not share the contents in this directory tree. Sharing this rep will make it difficult for us to evaluate candidates.**
 
 ### Setup
 
