@@ -4,15 +4,14 @@ const patients = require("./patients");
 const biomarkers = require("./biomarkers");
 const users = require("./users");
 
-const maybeThrow = () => {
-  return setTimeout(() => {
-    const shouldThrow = (Math.floor(Math.random() * 10) + 1) % 10;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-    if (shouldThrow) {
-      throw new Error("500");
-    }
-    return Promise.resolve();
-  }, 500);
+const maybeThrow = async () => {
+  await sleep(500);
+  const shouldThrow = (Math.floor(Math.random() * 50) + 1) % 50;
+  if (shouldThrow) {
+    throw new Error("500");
+  }
 };
 
 const throwIfNotNumber = arg => {
