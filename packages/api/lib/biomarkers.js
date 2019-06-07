@@ -1,6 +1,6 @@
 const biomarkers = [
   {
-    resourceType: "Observation",
+    resourceType: "FastingBloodGlucose",
     id: 1,
     patientId: 1,
     status: "final",
@@ -38,7 +38,7 @@ const biomarkers = [
     ]
   },
   {
-    resourceType: "Observation",
+    resourceType: "FastingBloodGlucose",
     id: 2,
     patientId: 1,
     status: "final",
@@ -76,7 +76,7 @@ const biomarkers = [
     ]
   },
   {
-    resourceType: "Observation",
+    resourceType: "PostMealBloodGlucose",
     id: 3,
     patientId: 1,
     status: "final",
@@ -114,7 +114,7 @@ const biomarkers = [
     ]
   },
   {
-    resourceType: "Observation",
+    resourceType: "PostMealBloodGlucose",
     id: 4,
     patientId: 1,
     status: "final",
@@ -152,7 +152,7 @@ const biomarkers = [
     ]
   },
   {
-    resourceType: "Observation",
+    resourceType: "BloodGlucose",
     id: 5,
     patientId: 1,
     status: "final",
@@ -190,7 +190,7 @@ const biomarkers = [
     ]
   },
   {
-    resourceType: "Observation",
+    resourceType: "BloodGlucose",
     id: 6,
     patientId: 2,
     status: "final",
@@ -228,7 +228,7 @@ const biomarkers = [
     ]
   },
   {
-    resourceType: "Observation",
+    resourceType: "BloodGlucose",
     id: 7,
     patientId: 2,
     status: "final",
@@ -266,7 +266,7 @@ const biomarkers = [
     ]
   },
   {
-    resourceType: "Observation",
+    resourceType: "BloodGlucose",
     id: 8,
     patientId: 2,
     status: "final",
@@ -304,7 +304,7 @@ const biomarkers = [
     ]
   },
   {
-    resourceType: "Observation",
+    resourceType: "BloodGlucose",
     id: 8,
     patientId: 2,
     status: "final",
@@ -342,7 +342,7 @@ const biomarkers = [
     ]
   },
   {
-    resourceType: "Observation",
+    resourceType: "BloodGlucose",
     id: 9,
     patientId: 2,
     status: "final",
@@ -380,7 +380,7 @@ const biomarkers = [
     ]
   },
   {
-    resourceType: "Observation",
+    resourceType: "BloodGlucose",
     id: 10,
     patientId: 1,
     status: "final",
@@ -418,7 +418,7 @@ const biomarkers = [
     ]
   },
   {
-    resourceType: "Observation",
+    resourceType: "BloodGlucose",
     id: 11,
     patientId: 1,
     status: "final",
